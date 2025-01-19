@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Coba Tailwind</title>
+    <link rel="stylesheet" href="css/finall.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    />
+    <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/4.0.0/model-viewer.min.js"></script>
+  </head>
+  <body class="bg-gray-800 p-10">
+    <header
+      class="w-full h-[15vh] rounded bg-gradient-to-r from-slate-800 to-gray-700 text-center"
+    >
+      <h1 class="text-slate-100 font-bold text-3xl relative top-7">
+        Belajar TailwindCSS
+      </h1>
+    </header>
+    <main
+      class="w-auto h-auto bg-slate-700  mt-2 text-slate-100 p-3 rounded shadow-md"
+    >
+      <h2 class="font-semibold text-2xl text-center">
+        Spacing Margin
+      </h2>
+      <div class="container bg-slate-800 rounded-md flex gap-5 p-3 mt-2 text-center">
+        <section class=" w-1/2 rounded-md shadow-lg">
+          <img id="ac1" src="img/ac1.jpg" alt="" class="rounded-md"></img>
+          <label for="ac1">Assassin Creed Unity</label>
+          <img id="ac2" src="img/ac2.jpg" alt="" class="rounded-md mt-2"></img>
+          <label for="ac2">Assassin Creed Unity</label>
+        </section>
+        <section class="bg-slate-800 w-1/2 rounded-md">
+          <img id="fh1" src="img/fh1.jpg" alt="" class="rounded-md"></img>
+          <label for="fh1">Forza Horizon 4</label>
+          <img id="fh2" src="img/fh2.jpg" alt="" class="mt-2 rounded-md"></img>
+          <label for="fh2">Forza Horizon 4</label>
+        </section>
+      </div>
+      <h2 class="mt-2 font-semibold text-2xl text-center">
+        Text
+      </h2>
+      <div class="container bg-slate-800 rounded-md flex gap-5 p-3 mt-3 text-center">
+        <p class="font-mono ">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consectetur temporibus facilis vitae laudantium totam? Natus nemo beatae itaque magnam labore amet explicabo sequi sint vero. Et, praesentium quia officia architecto voluptate perspiciatis aperiam enim in dolore ullam optio reprehenderit similique laborum ab explicabo fuga voluptas dolorem numquam ad aliquid.</p>
+      </div>
+      <h2 class="mt-2 font-semibold  text-2xl text-center">
+        Icon
+      </h2>
+      <div class="container bg-slate-800 transition duration-300 hover:bg-slate-500 rounded-md flex gap-5 p-3 mt-2 text-center justify-center">
+        <a href="https://www.facebook.com/ericko.anjaymabar"><i class="fa-brands fa-facebook text-4xl transition duration-700 hover:text-blue-950"></i></a>
+        <a href="https://www.linkedin.com/in/muhamad-rifai-553a212a7"><i class="fa-brands fa-linkedin text-4xl transition duration-700 hover:text-blue-950"></i></a>
+        <a href="https://www.instagram.com/mr.user404_?igsh=eTF2djZuNTJmdmd5"><i class="fa-brands fa-instagram text-4xl transition duration-700 hover:text-blue-950"></i></a>
+        <a href="https://github.com/Rifaiiii04"><i class="fa-brands fa-github text-4xl transition duration-700 hover:text-blue-950"></i></a>
+      </div>
+      <h2 class="mt-2 font-semibold  text-2xl text-center">
+        3D Model
+      </h2>
+      <div class="container bg-slate-800 rounded-md flex gap-5 p-3 mt-2 text-center">
+        <model-viewer class="w-full bg-slate-500 rounded-lg" src="models/cobamodel.glb" alt="Cyberpunk Model" camera-controls auto-rotate></model-viewer>
+        <p>
+          <small>
+            Model created by Rifai.
+            Using Blender
+          </small>
+        </p>
+      </div>
+    </main>
+  </body>
+</html>
