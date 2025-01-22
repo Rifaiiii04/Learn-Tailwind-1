@@ -11,6 +11,7 @@ This repository explores various TailwindCSS utilities, including:
 - ✍️ Fonts & Text Styling
 - 📐 Dimensions (Width & Height)
 - 🌈 Gradients & Color Management
+- ✨ Filter 
 
 ## ⚒️ **Tech Stack Used**
 TailwindCSS - Utility-first framework for styling
