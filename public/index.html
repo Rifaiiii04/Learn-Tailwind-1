@@ -4,35 +4,36 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Coba Tailwind</title>
-    <link rel="stylesheet" href="css/finalll.css" />
+    <link rel="stylesheet" href="css/final.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
     />
     <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/4.0.0/model-viewer.min.js"></script>
+
   </head>
-  <body class="bg-gray-800 p-10">
+  <body class="p-10">
     <header
       class="w-full h-[15vh] rounded bg-gradient-to-r from-slate-800 to-gray-700 text-center"
     >
-      <h1 class="bg-gradient-to-r from-blue-600 to-red-600 bg-clip-text  text-transparent  font-bold text-4xl relative top-7  ">
+      <h1 class="bg-gradient-to-r from-blue-600 to-red-600 bg-clip-text  text-transparent  font-bold text-4xl relative top-10  ">
        Belajar TailwindCSS 
       </h1>
     </header>
     <main
-      class="w-auto bg-slate-700 mt-2 text-slate-100 p-3 rounded shadow-md"
+      class="w-auto bg-slate-300 mt-2 text-slate-900  p-3 rounded shadow-lg shadow-black/100"
     >
       <h2 class="font-semibold text-2xl text-center">
         Spacing Margin
       </h2>
-      <div class="container bg-slate-800 rounded-md flex gap-5 p-3 mt-2 text-center">
-        <section class=" w-1/2 rounded-md shadow-lg">
+      <div class="container bg-slate-400 rounded-md flex gap-5 p-3 mt-2  shadow-lg  shadow-slate-900  text-center">
+        <section class=" w-1/2 rounded-md ">
           <img id="ac1" src="img/ac1.jpg" alt="" class="rounded-md"></img>
           <label for="ac1">Assassin Creed Unity</label>
           <img id="ac2" src="img/ac2.jpg" alt="" class="rounded-md mt-2"></img>
           <label for="ac2">Assassin Creed Unity</label>
         </section>
-        <section class="bg-slate-800 w-1/2 rounded-md">
+        <section class=" w-1/2 rounded-md">
           <img id="fh1" src="img/fh1.jpg" alt="" class="rounded-md"></img>
           <label for="fh1">Forza Horizon 4</label>
           <img id="fh2" src="img/fh2.jpg" alt="" class="mt-2 rounded-md"></img>
@@ -42,22 +43,22 @@
       <h2 class="mt-2 font-semibold text-2xl text-center">
         Text
       </h2>
-      <div class="container bg-slate-800 rounded-md flex gap-5 p-3 mt-3 text-center">
+      <div class="container bg-slate-500 rounded-md flex gap-5 p-3 mt-3 text-center">
         <p class="font-mono ">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consectetur temporibus facilis vitae laudantium totam? Natus nemo beatae itaque magnam labore amet explicabo sequi sint vero. Et, praesentium quia officia architecto voluptate perspiciatis aperiam enim in dolore ullam optio reprehenderit similique laborum ab explicabo fuga voluptas dolorem numquam ad aliquid.</p>
       </div>
       <h2 class="mt-2 font-semibold  text-2xl text-center">
         Icon
       </h2>
-      <div class="container bg-slate-800 transition duration-300 hover:bg-slate-500 rounded-md flex gap-5 p-3 mt-2 text-center justify-center">
-        <a href="https://www.facebook.com/ericko.anjaymabar"><i class="fa-brands fa-facebook text-4xl transition duration-700 hover:text-blue-950"></i></a>
-        <a href="https://www.linkedin.com/in/muhamad-rifai-553a212a7"><i class="fa-brands fa-linkedin text-4xl transition duration-700 hover:text-blue-950"></i></a>
-        <a href="https://www.instagram.com/mr.user404_?igsh=eTF2djZuNTJmdmd5"><i class="fa-brands fa-instagram text-4xl transition duration-700 hover:text-blue-950"></i></a>
-        <a href="https://github.com/Rifaiiii04"><i class="fa-brands fa-github text-4xl transition duration-700 hover:text-blue-950"></i></a>
+      <div class="container bg-slate-500 transition duration-300  rounded-md flex gap-5 p-3 mt-2 text-center justify-center">
+        <a href="https://www.facebook.com/ericko.anjaymabar"><i class="fa-brands fa-facebook text-white text-4xl transition duration-700 hover:text-blue-950"></i></a>
+        <a href="https://www.linkedin.com/in/muhamad-rifai-553a212a7"><i class="fa-brands fa-linkedin text-white text-4xl transition duration-700 hover:text-blue-950"></i></a>
+        <a href="https://www.instagram.com/mr.user404_?igsh=eTF2djZuNTJmdmd5"><i class="fa-brands fa-instagram text-4xl transition duration-700 text-white hover:text-blue-950"></i></a>
+        <a href="https://github.com/Rifaiiii04"><i class="fa-brands fa-github text-4xl transition duration-700 text-white hover:text-slate-900"></i></a>
       </div>
       <h2 class="mt-2 font-semibold  text-2xl text-center">
         3D Model
       </h2>
-      <div class="container bg-slate-800 rounded-md flex gap-5 p-3 mt-2 text-center">
+      <div class="container bg-slate-500 rounded-md flex gap-5 p-3 mt-2 text-center">
         <model-viewer class="w-full bg-slate-500 rounded-lg" src="models/cobamodel.glb" alt="Cyberpunk Model" camera-controls auto-rotate></model-viewer>
         <p>
           <small>
@@ -68,7 +69,7 @@
       </div>
           <h1 class="text-3xl text-center mt-3">Background</h1>
         <div class="container mt-3 max-w-xl h-96 mx-auto bg-slate-500 text-center overflow-y-scroll bg-fixed rounded-md" style="background-image: url('https://picsum.photos/1000/600');">
-          <p class="p-5 text-2xl">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis deleniti ad sint laudantium et hic atque accusantium quo corrupti voluptatem eveniet cumque blanditiis sunt, porro amet explicabo consequuntur ratione! Minus nulla ipsa debitis odio ex reprehenderit, vel facere quas ullam, eius quis fugiat, consequatur consectetur magni! Dicta fuga incidunt facere, sunt tempora magni. Omnis explicabo voluptate nemo quam debitis quo iste eligendi mollitia dolore delectus deserunt consectetur recusandae placeat adipisci, odio odit! Modi atque repellat libero beatae qui totam facere, sed aperiam. Veniam quisquam ipsum maxime eaque illo error vero, distinctio quaerat, nihil corporis hic laboriosam saepe, nesciunt dolores iste eos incidunt earum. Repudiandae nam ducimus ab architecto fuga eum non obcaecati reiciendis vitae, adipisci animi maiores atque officia vel quos laudantium eos accusantium, itaque a dicta veritatis. Aliquid eum voluptates, corporis deserunt, repellat ratione cumque quasi illum in, iusto repellendus doloremque perferendis praesentium fugit alias ducimus dolore saepe mollitia! Quae animi dolor illum laboriosam repellat iste eligendi quam, inventore magnam eius quis, ut incidunt dolorum autem? Tempora impedit quo maxime sapiente molestiae ex quae, facere eos, officia eveniet ipsa nobis porro sequi, culpa rerum voluptatibus magni officiis sed dolorum eaque. Temporibus rem molestiae assumenda atque sequi neque nostrum perspiciatis.</p>
+          <p class="p-5 text-xl text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis deleniti ad sint laudantium et hic atque accusantium quo corrupti voluptatem eveniet cumque blanditiis sunt, porro amet explicabo consequuntur ratione! Minus nulla ipsa debitis odio ex reprehenderit, vel facere quas ullam, eius quis fugiat, consequatur consectetur magni! Dicta fuga incidunt facere, sunt tempora magni. Omnis explicabo voluptate nemo quam debitis quo iste eligendi mollitia dolore delectus deserunt consectetur recusandae placeat adipisci, odio odit! Modi atque repellat libero beatae qui totam facere, sed aperiam. Veniam quisquam ipsum maxime eaque illo error vero, distinctio quaerat, nihil corporis hic laboriosam saepe, nesciunt dolores iste eos incidunt earum. Repudiandae nam ducimus ab architecto fuga eum non obcaecati reiciendis vitae, adipisci animi maiores atque officia vel quos laudantium eos accusantium, itaque a dicta veritatis. Aliquid eum voluptates, corporis deserunt, repellat ratione cumque quasi illum in, iusto repellendus doloremque perferendis praesentium fugit alias ducimus dolore saepe mollitia! Quae animi dolor illum laboriosam repellat iste eligendi quam, inventore magnam eius quis, ut incidunt dolorum autem? Tempora impedit quo maxime sapiente molestiae ex quae, facere eos, officia eveniet ipsa nobis porro sequi, culpa rerum voluptatibus magni officiis sed dolorum eaque. Temporibus rem molestiae assumenda atque sequi neque nostrum perspiciatis.</p>
         </div>
 
         <h1 class="text-3xl text-center mt-3">Border & Filter</h1>
@@ -76,6 +77,29 @@
         <div class="mt-5 max-w-xl mx-auto h-96 bg-slate-500 bg-contain bg-no-repeat bg-center rounded-xl  shadow-lg  shadow-slate-300 overflow-hidden border-8 brightness-50 flex
         " style="background-image: url('img/try.jpg');">
           <div class="w-[20vh] h-[20vh] m-auto mt-24 bg-white/30 backdrop-blur-md rounded-full"></div>
+        </div>
+
+        <h1 class="text-3xl text-center mt-3">Pseudo-Class </h1>
+
+        <button class="bg-sky-500 my-10 px-5 py-2 rounded-full text-white font-semibold font-mono block mx-auto hover:bg-sky-600 active:bg-sky-700 focus:ring focus:ring-sky-300">Simpan</button>
+
+        <div class="max-w-lg my-10 border border-slate-200 rounded-xl mx-auto p-5 shadow-md font-serif hover:bg-sky-500 group">
+          <h5 class="font-bold text-slate-700 text-lg mb-3 group-hover:text-white">My Card</h5>
+          <p class="text-slate-600 group-hover:text-white selection:bg-green-400 selection:text-slate-900 first-line:uppercase first-line:tracking-widest first-letter:text-7xl 
+          first-letter:float-left first-letter:mr-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae temporibus velit quae nobis? Temporibus voluptatum quidem vero id asperiores alias recusandae quae ad incidunt quasi sint rem</p>
+        </div>
+
+        <div class="max-w-lg border border-slate-200 rounded-xl mx-auto shadow-md font-sans p-5">
+          <form action="">
+            <label for="Email">
+              <span class="block font-semibold mb-1 text-slate-700 after:content-['*'] after:text-pink-500 after:ml-0.5">Email</span>
+               <input type="email" id="Email" placeholder="Input Email..." class="px-3 py-2 border shadow rounded w-full block text-sm placeholder:text-slate-400 focus:outline-none focus:ring-1 focus:ring-sky-500 focus:border-sky-500 
+               invalid:text-pink-700 
+               invalid:focus:ring-pink-700
+              invalid:focus:border-pink-700 peer"/> 
+              <p class="text-sm m-1 text-pink-700 invisible peer-invalid:visible">Email tidak valid</p>
+            </label>
+          </form>
         </div>
     </main>
   </body>
