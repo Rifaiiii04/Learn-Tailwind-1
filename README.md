@@ -12,6 +12,8 @@ This repository explores various TailwindCSS utilities, including:
 - 📐 Dimensions (Width & Height)
 - 🌈 Gradients & Color Management
 - ✨ Filter 
+- ✨ Pseudo Class
+- 🎬 Animation
 
 ## ⚒️ **Tech Stack Used**
 TailwindCSS - Utility-first framework for styling
