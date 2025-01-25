@@ -11,11 +11,11 @@
     />
     <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/4.0.0/model-viewer.min.js"></script>
   </head>
-  <body class="bg-gray-200 p-10 ">
+  <body class="bg-gray-200 sm:bg-red-200 md:bg-green-200 lg:bg-sky-200 xl:bg-yellow-200 p-10 ">
     <header
       class="w-full h-[15vh] rounded bg-gradient-to-r from-slate-800 to-gray-700 text-center"
     >
-      <h1 class="bg-gradient-to-r from-blue-600 to-red-600 bg-clip-text  text-transparent  font-bold text-4xl relative top-10  ">
+      <h1 class="bg-gradient-to-r from-blue-600 to-red-600 bg-clip-text  text-transparent  font-bold text-2xl relative top-10 sm:text-4xl xl:text-6xl xl:top-8">
        Belajar TailwindCSS 
       </h1>
     </header>
@@ -25,7 +25,7 @@
       <h2 class="font-semibold text-2xl text-center">
         Spacing Margin
       </h2>
-      <div class="container bg-slate-400 rounded-md flex gap-5 p-3 mt-2  shadow-lg  shadow-slate-900  text-center">
+      <div class="container bg-slate-400 rounded-md flex gap-5 p-3 mt-2  shadow-lg shadow-slate-900  text-center">
         <section class=" w-1/2 rounded-md ">
           <img id="ac1" src="img/ac1.jpg" alt="" class="rounded-md"></img>
           <label for="ac1">Assassin Creed Unity</label>
@@ -42,7 +42,7 @@
       <h2 class="mt-2 font-semibold text-2xl text-center">
         Text
       </h2>
-      <div class="container bg-slate-500 rounded-md flex gap-5 p-3 mt-3 text-center">
+      <div class="container bg-slate-500 rounded-md flex gap-5 p-3 mt-3 text-center ">
         <p class="font-mono ">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consectetur temporibus facilis vitae laudantium totam? Natus nemo beatae itaque magnam labore amet explicabo sequi sint vero. Et, praesentium quia officia architecto voluptate perspiciatis aperiam enim in dolore ullam optio reprehenderit similique laborum ab explicabo fuga voluptas dolorem numquam ad aliquid.</p>
       </div>
       <h2 class="mt-2 font-semibold  text-2xl text-center">
@@ -105,7 +105,7 @@
         <div class="mt-5 flex justify-center">
         <button class="w-36 h-10 flex justify-center items-center gap-3 bg-green-500 rounded-xl hover:bg-green-600 active:bg-green-700 focus:ring ring-green-400 ">
         <div class="w-6 h-6 rounded-full bg-transparent border-4 border-slate-200 border-t-transparent animate-spin "></div>
-        <span class="text-white">Processing...</span></button>
+        <a href="#" class="text-white">Processing...</a></button>
       </div><div class="w-16 h-16 mx-auto mt-6 bg-sky-600 rounded-full text-center shadow-md shadow-black animate-bounce"><span class="text-white text-3xl font-bold relative top-3">$</span></div>
     </main>
   </body>
